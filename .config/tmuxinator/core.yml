@@ -1,0 +1,23 @@
+# /home/lr/chayintr/.config/tmuxinator/core.yml
+
+name: core
+root: ~/
+
+windows:
+  - editor:
+      # layout: main-vertical
+      layout: 9f7c,238x62,0,0{142x62,0,0,0,95x62,143,0[95x31,143,0,1,95x30,143,32,2]}
+      # Synchronize all panes of this window, can be enabled before or after the pane commands run.
+      # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
+      # synchronize: after
+      panes:
+      - shell_command:    # pane no. 1
+        - source ~/env/envi_core.sh
+        - clear
+        focus: true
+      - shell_command:    # pane no. 2
+        - source ~/env/envi_core.sh
+        - clear
+      - shell_command:    # pane no. 3
+        - source ~/env/envi_core.sh
+        - clear
