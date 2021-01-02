@@ -1,2 +1,5 @@
-set -g pane-border-style 'fg=colour7'
-set -g pane-active-border-style 'fg=colour0'
+# Set pane border
+set-option -g pane-border-style 'fg=colour7'
+
+# Set the active pane border
+set-option -g pane-active-border-style 'fg=colour0'
