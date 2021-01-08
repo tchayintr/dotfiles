@@ -24,6 +24,10 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-obsession'
     Plug 'tpope/vim-surround'
     Plug 'vimjas/vim-python-pep8-indent'
+    Plug 'voldikss/vim-floaterm'
+
+    " notes
+    Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
 
     " schemes
     Plug 'cocopon/iceberg.vim'

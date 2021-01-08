@@ -6,3 +6,5 @@ set runtimepath+=~/.vim/plugged/vim-hug-neovim-rpc/
 " Deoplete common settings
 let g:deoplete#enable_at_startup = 1
 call deoplete#custom#option('deoplete-options-yarp', v:true)
+
+" autocmd FileType *.md let b:deoplete_disable_auto_complete = 1
