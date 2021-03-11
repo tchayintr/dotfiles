@@ -27,9 +27,11 @@ source $HOME/.vim/plug-config/supertab.vim
 source $HOME/.vim/plug-config/tabular.vim
 source $HOME/.vim/plug-config/vim-autopep8.vim
 source $HOME/.vim/plug-config/vim-commentary.vim
+source $HOME/.vim/plug-config/vim-floaterm.vim
 source $HOME/.vim/plug-config/vim-polyglot.vim
 source $HOME/.vim/plug-config/vim-python-pep8-indent.vim
 source $HOME/.vim/plug-config/vim-markdown.vim
+source $HOME/.vim/plug-config/vim-notes.vim
 source $HOME/.vim/plug-config/vim-obsession.vim
 source $HOME/.vim/plug-config/vim-smoothie.vim
 source $HOME/.vim/plug-config/vim-sneak.vim
@@ -39,6 +41,7 @@ source $HOME/.vim/plug-config/vim-yankstack.vim
 " source $HOME/.vim/plug-config/vim-tmux-navigator.vim
 source $HOME/.vim/plug-config/vim-yapf.vim
 source $HOME/.vim/plug-config/ultisnips.vim
+
 
 " Scheme/theme
 source $HOME/.vim/themes/colorcolumn.vim

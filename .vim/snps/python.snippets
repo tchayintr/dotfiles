@@ -1,4 +1,19 @@
-snippet print "Debug"
+snippet print "Debugging"
 print('[DEBUG]: ${0:None}')
+exit()
+endsnippet
+
+snippet print1 "A variable debugging"
+print('[DEBUG_VAR]: "{}"'.format(${0:None}))
+exit()
+endsnippet
+
+snippet print2 "2 variables debugging"
+print('[DEBUG_VAR]: "{}", "{}"'.format(${1:None}, ${2:None}))
+exit()
+endsnippet
+
+snippet print3 "3 variables debugging"
+print('[DEBUG_VAR]: "{}", "{}", "{}"'.format(${1:None}, ${2:None}, ${3:None}))
 exit()
 endsnippet
