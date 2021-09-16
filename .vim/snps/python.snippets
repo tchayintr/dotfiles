@@ -17,3 +17,12 @@ snippet print3 "3 variables debugging"
 print('[DEBUG_VAR]: "{}", "{}", "{}"'.format(${1:None}, ${2:None}, ${3:None}))
 exit()
 endsnippet
+
+snippet printtd "TODO logging"
+# TODO ${1:None}
+print('# TODO: "{}"'.format('$1'))
+endsnippet
+
+snippet input1 "Step debugging"
+input('${0:next}')
+endsnippet

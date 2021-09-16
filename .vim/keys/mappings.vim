@@ -7,6 +7,12 @@ imap <C-j> <C-w>j
 imap <C-k> <C-w>k
 imap <C-l> <C-w>l
 
+" " Moving cursor in insert mode
+" inoremap <C-h> <Left>
+" inoremap <C-j> <Down>
+" inoremap <C-k> <Up>
+" inoremap <C-l> <Right>
+
 " Leader key
 let g:mapleader = ','
 let g:maplocalleader = ';'

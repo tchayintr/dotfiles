@@ -27,7 +27,7 @@ source $HOME/.vim/plug-config/supertab.vim
 source $HOME/.vim/plug-config/tabular.vim
 source $HOME/.vim/plug-config/vim-autopep8.vim
 source $HOME/.vim/plug-config/vim-commentary.vim
-source $HOME/.vim/plug-config/vim-floaterm.vim
+" source $HOME/.vim/plug-config/vim-floaterm.vim
 source $HOME/.vim/plug-config/vim-polyglot.vim
 source $HOME/.vim/plug-config/vim-python-pep8-indent.vim
 source $HOME/.vim/plug-config/vim-markdown.vim

@@ -19,4 +19,4 @@ set -g default-terminal "screen-256color"
 # set -g bell-action none           # Turn off visual sounds
 
 # sovle the S-up and S-down do not working on mac terminal
-set -as terminal-overrides ',st*:kind@:kri@'
+# set -as terminal-overrides ',st*:kind@:kri@'
