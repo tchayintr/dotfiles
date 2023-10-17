@@ -1,6 +1,10 @@
 " Paths (e.g. node, python, etc.)
 source $HOME/.vim/paths.vim
 
+" Priority Plugin Settings
+source $HOME/.vim/plug-config/deoplete.vim
+source $HOME/.vim/plug-config/deoplete-jedi.vim
+
 " FileTypes
 source $HOME/.vim/ftplugin/javascript.vim
 source $HOME/.vim/ftplugin/python.vim
@@ -16,10 +20,11 @@ source $HOME/.vim/keys/mappings.vim
 " Plugin Configuration
 source $HOME/.vim/keys/which-key.vim
 source $HOME/.vim/plug-config/ale.vim
+source $HOME/.vim/plug-config/bash-support.vim
 " source $HOME/.vim/plug-config/ctrlp.vim
-source $HOME/.vim/plug-config/deoplete.vim
-source $HOME/.vim/plug-config/deoplete-jedi.vim
+source $HOME/.vim/plug-config/copilot.vim
 source $HOME/.vim/plug-config/fzf.vim
+source $HOME/.vim/plug-config/focus.vim
 source $HOME/.vim/plug-config/jedi-vim.vim
 source $HOME/.vim/plug-config/nerdtree.vim
 source $HOME/.vim/plug-config/splitjoin.vim
@@ -41,6 +46,7 @@ source $HOME/.vim/plug-config/vim-yankstack.vim
 " source $HOME/.vim/plug-config/vim-tmux-navigator.vim
 source $HOME/.vim/plug-config/vim-yapf.vim
 source $HOME/.vim/plug-config/ultisnips.vim
+source $HOME/.vim/plug-config/undotree.vim
 
 
 " Scheme/theme

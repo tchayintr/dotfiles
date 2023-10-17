@@ -1,3 +1,9 @@
+" fzf linuxbrew
+set rtp+=$HOME/.linuxbrew/opt/fzf
+
+" to fix fzf does not work in some old machine
+let $FZF_DEFAULT_COMMAND = 'find'
+
 " Extra key bindings
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',

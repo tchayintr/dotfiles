@@ -14,6 +14,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'justinmk/vim-sneak'
     Plug 'liuchengxu/vim-which-key'
     Plug 'maxbrunsfeld/vim-yankstack'
+    Plug 'mbbill/undotree'
+    Plug 'merlinrebrovic/focus.vim'
     Plug 'mhinz/vim-startify'
     Plug 'plasticboy/vim-markdown'
     Plug 'psliwka/vim-smoothie'
@@ -24,8 +26,11 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-obsession'
     Plug 'tpope/vim-surround'
+    Plug 'vim-scripts/bash-support.vim'
     Plug 'vimjas/vim-python-pep8-indent'
-    Plug 'voldikss/vim-floaterm'
+
+    " coding assistance
+    Plug 'github/copilot.vim'
 
     " notes
     Plug 'xolox/vim-notes' | Plug 'xolox/vim-misc'
@@ -36,6 +41,7 @@ call plug#begin('~/.vim/plugged')
     " tmp
     " Plug 'christoomey/vim-tmux-navigator'
     " Plug 'ctrlpvim/ctrlp.vim'
+    " Plug 'voldikss/vim-floaterm'
 
     " deoplete
     if has('nvim')

@@ -1,15 +1,17 @@
 ## Dotfiles 
 - macos/linux
+    - bash 
 - systemd (linux)
     - tmux-continuum
 - tmux
 - tmuxinator
 - vim
+    - plug-ins 
 
 ### Requirements
 - ag
 - fzf
 - rg
-- tmux == 3.1c
-- tmuxinator == 2.0.2
+- tmux 
+- tmuxinator
 - vim >= 8.2
